@@ -1,0 +1,52 @@
+
+	var books  = [{
+		"title": "1984",
+		"author": "George Orwell",
+		"read": "true",
+		"picture": "BookCover/1984.jpg"
+	},{
+		"title": "The Hobbit",
+		"author": "J.R.R.Tolkien",
+		"read": "true",
+		"picture": "BookCover/hobbit.jpg"
+	},{
+		"title": "Hunger Games",
+		"author": "Suzanne Collins",
+		"read": "true",
+		"picture": "BookCover/hungergame.jpg"
+	},{
+		"title": "The Chronicles of Narnia; The Lion, The Witch And The Wardrobe",
+		"author": "C.S.Lewis",
+		"read": "true",
+		"picture": "BookCover/lionwitchwardrobe.jpg"
+	},{
+		"title": "Little Woman",
+		"author": "Louisa May Alcott",
+		"read": "true",
+		"picture": "BookCover/Littlewomen.jpg"
+	},{
+		"title": "Harry Potter and the Philosopher`s Stone",
+		"author": "J.K.Rowling",
+		"read": "true",
+		"picture": "BookCover/philosopherstone.jpg"
+	},{
+		"title": "Rich Dad Poor Dad",
+		"author": "Robert T.Kiyosaki",
+		"read": "false",
+		"picture": "BookCover/richdadpoordad.jpg"
+	},{
+		"title": "The Secret",
+		"author": "Rhonda Byrne",
+		"read": "true",
+		"picture": "BookCover/secret.jpg"
+	},{
+		"title": "Steve Jobs",
+		"author": "Walter Isaacson",
+		"read": "false",
+		"picture": "BookCover/stevejob.jpg"
+	},{
+		"title": "Star Wars: Thrawn",
+		"author": "Timothy Zahn",
+		"read": "true",
+		"picture": "BookCover/thrawn.jpg"
+	}] 
