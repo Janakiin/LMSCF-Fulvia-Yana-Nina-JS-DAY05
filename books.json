@@ -1,5 +1,5 @@
 
-	var books  = [{
+	books  = `[{
 		"title": "1984",
 		"author": "George Orwell",
 		"read": "true",
@@ -25,7 +25,7 @@
 		"read": "true",
 		"picture": "BookCover/Littlewomen.jpg"
 	},{
-		"title": "Harry Potter and the Philosopher`s Stone",
+		"title": "Harry Potter and the Philosopher\`s Stone",
 		"author": "J.K.Rowling",
 		"read": "true",
 		"picture": "BookCover/philosopherstone.jpg"
@@ -49,4 +49,4 @@
 		"author": "Timothy Zahn",
 		"read": "true",
 		"picture": "BookCover/thrawn.jpg"
-	}] 
+	}]`;

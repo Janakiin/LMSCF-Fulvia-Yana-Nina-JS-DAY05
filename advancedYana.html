@@ -6,13 +6,25 @@
 	
 </head>
 <body>
+
+	<ul class="books">Our Books:
+		<li>Resently Mentioned</li>
+	</ul>
+
 	<script src="books.json" type="text/javascript"></script>
 
 	<script>
 		
-		var books = JSON.parse(books);
+		
+		var books2 = JSON.parse(books);
+		console.log(books2)
 
-		document.write(books);
+document.getElementById("books");
+		for (var i = 0; i < books.length; i++) {
+			
+			document.writeln("<li><p>" + books2[i].title + "</p></li>");
+			
+		}	
 
 	</script>
 </body>
