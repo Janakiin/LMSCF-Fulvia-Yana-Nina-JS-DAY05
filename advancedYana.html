@@ -7,9 +7,11 @@
 </head>
 <body>
 
+<img src="BookCover/1984.jpg" alt="imgafe">
 	<ul class="books">Our Books:
 		<li>Resently Mentioned</li>
 	</ul>
+
 
 	<script src="books.json" type="text/javascript"></script>
 
@@ -19,10 +21,11 @@
 		var books2 = JSON.parse(books);
 		console.log(books2)
 
-document.getElementById("books");
 		for (var i = 0; i < books.length; i++) {
-			
-			document.writeln("<li><p>" + books2[i].title + "</p></li>");
+			document.getElementById("books");
+			document.writeln("<li><p>" + books2[i].titles + "</p>");
+			document.writeln("<p>" + books2[i].author + "</p>");
+			document.writeln("<img scr=\"" + books2[i].picture + "\" alt =\"img\"></li>");
 			
 		}	
 
