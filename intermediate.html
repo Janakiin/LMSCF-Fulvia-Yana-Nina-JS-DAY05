@@ -3,10 +3,208 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Intermediate</title>
+	<link rel="stylesheet" type="text/css" href="intermediate.css">
 </head>
 <body>
-	<script>
+
+	<table>
 		
+		<h1>Table Of Employees</h1>
+		<tbody>
+
+		<tr>
+			<th>
+				Unique ID
+			</th>
+			<th>
+				First Name
+			</th>
+			<th>
+				Last Name
+			</th>
+			<th>
+				Email address
+			</th>
+			<th>
+				Job Title
+			</th>
+			<th>
+				Salary
+			</th>
+		</tr>
+		
+		<div class="table" id="table">
+			
+		</div>
+
+		</tbody>
+	</table>
+
+		<script>
+
+		var employee = [{
+
+       "id": "123456789",
+
+       "firstName": "Andy",
+
+       "lastName":"Sparkle",
+
+       "email":"Sparkling@gmail.com",
+
+       "jobTitle":"Dynamic Team Strategist",
+
+       "salary":"30,000 Monopolis Dollars"
+
+   }, {
+
+       "id": "123456790",
+
+       "firstName": "Elaina",
+
+       "lastName":"Grey",
+
+       "email":"GreyElaina@gmail.com",
+
+       "jobTitle":"Principal Solution Developer",
+
+       "salary":"20.500 Monopolis Dollars and a slice of pizza"
+
+   }, {
+
+       "id": "123456791",
+
+       "firstName": "Roy",
+
+       "lastName":"Thomas",
+
+       "email":"RThomas82@gmail.com",
+
+       "jobTitle":"Interactive Security Planner",
+
+       "salary":"30,000 kisses"
+
+   }, {
+
+       "id": "123456792",
+
+       "firstName": "Belinda",
+
+       "lastName":"Albani",
+
+       "email":"BeBeAlba@libero.it",
+
+       "jobTitle":"Customer Optimization Executive",
+
+       "salary":"45,000 Monopolis Dollars"
+
+   }, {
+
+       "id": "123456793",
+
+       "firstName": "Karola",
+
+       "lastName":"Wetzel",
+
+       "email":"KarolaWetzel@gmail.com",
+
+       "jobTitle":"Relational Infrastructure Officer",
+
+       "salary":"handshakes"
+
+   }, {
+
+       "id": "123456794",
+
+       "firstName": "Rowland",
+
+       "lastName":"Symonds",
+
+       "email":"SymondsR@armyspy.com",
+
+       "jobTitle":"Legacy Assurance Analyst",
+
+       "salary":"just glory"
+
+   }, {
+
+       "id": "123456795",
+
+       "firstName": "Joseph",
+
+       "lastName":"Ruggles",
+
+       "email":"JosephTheBest@cloudflare.com",
+
+       "jobTitle":"Chief Configuration Engineer",
+
+       "salary":"23,000 Monopolis Dollars"
+
+   }, {
+
+       "id": "123456796",
+
+       "firstName": "Nathan",
+
+       "lastName":"Bonham",
+
+       "email":"NathanBonham@gmail.com",
+
+       "jobTitle":"Senior Markets Designer",
+
+       "salary":"5,000,000 Old Lira"
+
+   }, {
+
+       "id": "123456797",
+
+       "firstName": "Anastasia",
+
+       "lastName":"Langdon",
+
+       "email":"LangdonAna@gmail.com",
+
+       "jobTitle":"Central Resonance Agent",
+
+       "salary":"10,000 Monopolis Dollars and 2 slices of pizza "
+
+   }, {
+
+       "id": "123456798",
+
+       "firstName": "Silvana",
+
+       "lastName":"Muller",
+
+       "email":"SiSiMuller@virgilio.it",
+
+       "jobTitle":"International Functionality Facilitator",
+
+       "salary":"pro bono"
+
+   }]
+
+var i = 0
+    document.getElementById("table");
+  for (i = 0; i <employee.length; i++) {
+        
+        document.writeln("<table border='1' width=100% >");
+        document.writeln("<td>" + employee[i].id + "</td>");
+        document.writeln("<td>" + employee[i].firstName + "</td>");
+        document.writeln("<td>" + employee[i].lastName + "</td>");
+        document.writeln("<td>" + employee[i].email + "</td>");
+        document.writeln("<td>" + employee[i].jobTitle + "</td>");
+        document.writeln("<td>" + employee[i].salary + "</td>");
+        document.writeln("</table>");
+
+        
+        
+        
+    }
+
+   
+    document.writeln("</tr></table>");
+
 	</script>
 </body>
 </html>
