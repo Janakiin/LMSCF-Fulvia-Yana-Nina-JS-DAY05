@@ -1,0 +1,27 @@
+body{
+	padding: 20px;
+}
+
+
+table  {
+  table-layout: fixed;
+  white-space: normal!important;
+ }
+
+td {
+   word-wrap: break-word;
+   background-color: lightgray;
+}
+
+
+th {
+	width: 200px;
+	border: 1px solid black;
+	background-color: lightsteelblue;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Ubuntu;
+}
