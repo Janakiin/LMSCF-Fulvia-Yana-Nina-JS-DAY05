@@ -2,11 +2,17 @@ body{
 	padding: 20px;
 }
 
+
+table  {
+  table-layout: fixed;
+  white-space: normal!important;
+ }
+
 td {
-	width: 300px;
-	
-	background-color: lightgray;
+   word-wrap: break-word;
+   background-color: lightgray;
 }
+
 
 th {
 	width: 200px;
@@ -14,10 +20,6 @@ th {
 	background-color: lightsteelblue;
 }
 
-table {
-	display: flex;
-	justify-content: space-between;
-}
 
 h1 {
 	text-align: center;

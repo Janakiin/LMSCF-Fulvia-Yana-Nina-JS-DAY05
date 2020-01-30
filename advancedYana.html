@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Advanced</title>
+	
+</head>
+<body>
+
+<img src="BookCover/1984.jpg" alt="imgafe">
+	<ul class="books">Our Books:
+		<li>Resently Mentioned</li>
+	</ul>
+
+
+	<script src="books.json" type="text/javascript"></script>
+
+	<script>
+		
+		
+		var books2 = JSON.parse(books);
+		console.log(books2)
+
+		for (var i = 0; i < books.length; i++) {
+			document.getElementById("books");
+			document.writeln("<li><p>" + books2[i].titles + "</p>");
+			document.writeln("<p>" + books2[i].author + "</p>");
+			document.writeln("<img scr=\"" + books2[i].picture + "\" alt =\"img\"></li>");
+			
+		}	
+
+	</script>
+</body>
+</html>
