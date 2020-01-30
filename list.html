@@ -20,7 +20,7 @@ Fill the schema with meaningful data for 10 Employees. Print each employee's det
 		
 	{
 
-		var object1 = [{
+		var employee = [{
 
        "id": "123456789",
 
@@ -164,6 +164,21 @@ Fill the schema with meaningful data for 10 Employees. Print each employee's det
 
 }
 
+
+var i = 0
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i <employee.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>Id</b></td><td width=50>" + employee[i].id + "</td></tr>");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + employee[i].firstName + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+
+   
+    document.writeln("</tr></table>");
+    </script>
 
 	</script>
 
