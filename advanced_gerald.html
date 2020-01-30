@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>advanced</title>
+</head>
+<body>
+	<ul>
+		<li><p id="book0"></p><p id="forpic0"></p></li>
+		<li><p id="book1"></p><p id="forpic1"></p></li>
+		<li><p id="book2"></p><p id="forpic2"></p></li>
+					
+	</ul>
+	
+	   <script type="text/javascript"  src="advanced_gerald.json"></script>
+	   <script>
+
+		   for (var i = 0; i < json.length; i++) {
+		   		
+
+		       var obj = json[i];
+		       var texti = document.getElementById("book"+i);
+		       texti.textContent = obj.title +"  "+obj.author+"  "+obj.read;
+
+		       /*var pici = document.getElementById("forpic"+i);
+		       pici.innerHTML = obj.picture;*/
+			  
+			  	var imgtest = new Image();
+				imgtest.src = obj.picture;
+				document.body.appendChild(imgtest);
+
+			    var pici = document.getElementById("forpic"+i);
+			    	
+			    pici.appendChild(imgtest);
+
+			    if (obj.read=="true") {
+			    	document.getElementById("book"+i).style.color = "green";
+			    }else{
+			    	document.getElementById("book"+i).style.color = "red";
+			    }
+
+			    if (obj.read=="true") {
+			    	document.getElementById("forpic"+i).style.opacity = "0.3";
+			    }else{
+			    	document.getElementById("forpic"+i).style.opacity = "1";
+			    }
+
+
+ 			}
+			document.getElementById("forpic1").width = "1500";
+		
+		 </script>
+</body>
+</html>

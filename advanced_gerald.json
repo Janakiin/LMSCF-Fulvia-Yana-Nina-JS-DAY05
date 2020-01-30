@@ -1,0 +1,34 @@
+var json = [{
+
+
+   "title": "Javascript for Dummies",
+
+   "author": "Dummy Dumb Dumb",
+
+   "read": "true",
+
+   "picture": "https://www.motionpub.com/wp-content/uploads/2016/02/title-300x266.jpg",
+
+}, {
+
+
+   "title": "Developing",
+
+   "author": "Patrik Jonathan",
+
+   "read": "false",
+
+   "picture": "https://www.bookbaby.com/images/book-cover-design-basic.png",
+
+},  {
+
+
+   "title": "Bookname3",
+
+   "author": "Max Mustermann",
+
+   "read": "true",
+
+   "picture": "https://images.template.net/28001/Vintage-Bookcover-template.jpg",
+
+}];
