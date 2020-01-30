@@ -23,6 +23,16 @@ var json = [{
 },  {
 
 
+   "title": "Stuff 2",
+
+   "author": "Hans Meier",
+
+   "read": "false",
+
+   "picture": "https://www.motionpub.com/wp-content/uploads/2016/02/title-300x266.jpg",
+
+},  {
+
    "title": "Bookname3",
 
    "author": "Max Mustermann",

@@ -4,12 +4,21 @@
 	<title>advanced</title>
 </head>
 <body>
+	<h1><b>Booklist</b></h1>
 	<ul>
-		<li><p id="book0"></p><p id="forpic0"></p></li>
-		<li><p id="book1"></p><p id="forpic1"></p></li>
-		<li><p id="book2"></p><p id="forpic2"></p></li>
+		<li><p id="book0"></p><p class="pics" id="forpic0"></p></li>
+		<li><p id="book1"></p><p class="pics" id="forpic1"></p></li>
+		<li><p id="book2"></p><p class="pics" id="forpic2"></p></li>
+		<li><p id="book3"></p><p class="pics" id="forpic3"></p></li>
 					
 	</ul>
+	<style>
+		.pics{
+			width: 20%;
+			
+
+		}
+	</style>
 	
 	   <script type="text/javascript"  src="advanced_gerald.json"></script>
 	   <script>
@@ -26,10 +35,7 @@
 			  
 			  	var imgtest = new Image();
 				imgtest.src = obj.picture;
-				document.body.appendChild(imgtest);
-
-			    var pici = document.getElementById("forpic"+i);
-			    	
+				var pici = document.getElementById("forpic"+i);
 			    pici.appendChild(imgtest);
 
 			    if (obj.read=="true") {
@@ -43,8 +49,6 @@
 			    }else{
 			    	document.getElementById("forpic"+i).style.opacity = "1";
 			    }
-
-
  			}
 			document.getElementById("forpic1").width = "1500";
 		
